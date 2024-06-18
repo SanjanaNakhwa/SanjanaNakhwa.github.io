@@ -59,11 +59,9 @@
             <div class="about-text">
                 <h2> About Me</h2>
                 <h5>UX <span>Designer</span></h5>
-                <p> I am Masters student at UMASS Boston majoring in Computer Science. With that being said I love designing beautiful websites and currently I am keen to learn about Machine Learning and AI.  
-                    Mostly I spend my time working on my assignments and my part-time job at the college library which I am very grateful for !
-                    I also love to workout and dance.
+                <p> I am a Master's student in Computer Science at UMASS Boston with a passion for designing beautiful websites. Currently, I'm eager to deepen my knowledge in Machine Learning and AI. I enjoy attending tech conferences, meeting new people, and spending time outdoors.
                 </p>
-                <a href="#" class="btn" onclick="location.href='https://drive.google.com/file/d/10S7wdGBZYmYGdiUcsJOStb7ca0SbuvI3/view?usp=drive_link'">Download CV</a> 
+                <a href="#" class="btn" onclick="location.href='https://drive.google.com/file/d/1oSSaN0bIZUw6XDy7yeFsNGyiXoFrWHPi/view?usp=sharing">Download CV</a> 
             </div>
         </section>
 
@@ -159,18 +157,24 @@
         <section class="contact" id="contact">
             <div class="contact-form" >
                 <h2> Hire Me</h2>
-                <p>I am available for an Internship or a CO-OP opportunity for any job title in Software Engineering and Web Development.
+                <p>I am available for full-time opportunities in UI/UX and Software Engineering and roles. 
                 You can connect to me via Phone: 857-693-1806
                  E-mail: S.Nakhwa002@umb.edu
                 </p>
 
                 <form action="https://formsubmit.co/07e470dccb90c2d477583b68c00cd62c" method="POST">
-                    <input type="email" name="email" placeholder="Email Address">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Email Address">
+                    
                     <input type="hidden" name="_subject" value="New Portfolio Reach-out!">
-                    <input type="text" name="name" placeholder="Your Name"  required>
-                    <textarea type="text"  name="message" placeholder=" Your Message" cols="30" rows="10" required>
-                    </textarea>
-                    <input type="submit" name="" value="submit" class="send">
+                    
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" placeholder="Your Message" cols="30" rows="10" required></textarea>
+                    
+                    <input type="submit" value="Submit" class="send">
                     
                </form>
             </div>
